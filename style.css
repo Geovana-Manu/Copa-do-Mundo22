@@ -97,7 +97,6 @@
 }
 
 .item-8{
-    background-color: rgb(195, 255, 0);
     width: 50%;
     height: 48vh;
     margin-left: 7%;
@@ -118,7 +117,6 @@
 }
 
 .item-10{
-    background-color: black;
      width: 25%;
      height: 25vh;
      margin-top: 3%;
@@ -156,7 +154,6 @@
 }
 
 .item-12{
-     background-color: black;
      width: 25%;
      height: 25vh;
      margin-top: 3%;
@@ -175,21 +172,7 @@
     margin-left: 3%;
 }
 
-.sub2{
-    color: rgb(227, 132, 25);
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 0px;
-}
-
-.p3{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 0px;
-}
-
 .item-14{
-    background-color: black;
     width: 25%;
     height: 25vh;
     margin-top: 3%;
@@ -208,21 +191,7 @@
     margin-left: 3%;
 }
 
-.sub3{
-    color: rgb(227, 132, 25);
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 0px;
-}
-
-.p4{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 0px; 
-}
-
 .item-16{
-    background-color: black;
     width: 25%;
     height: 25vh;
     margin-top: 3%;
@@ -241,15 +210,77 @@
     margin-left: 3%;
 }
 
-.sub4{
-    color: rgb(227, 132, 25);
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 0px; 
-}
+@media(max-width: 700px){
+    .item-5,.banner,.item-1{
+        height: auto;
+    }
+    .img1{
+        width: 60%;
+        height: auto;
+    }
+    .item-2,.item-3{
+        height: auto;
+        width: 7%;
+    }
+    .item-4{
+        height: auto;
+        width: 9%;
+    }
+    .item-2{
+        margin-left: 46%;
+    }
+    .img2,.img3,.img4{
+        width: 80%;
+        height: auto;
+    }
 
-.p5{
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 0px; 
+    .item-6{
+        width: 0%;
+        height: 0vh;
+    }
+    .item-8{
+        width: 100%;
+        height: auto;
+    }
+    .item-7{
+        width: 100%;
+        height: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .p1{
+        text-align: center;
+    }
+    .img-2{
+        width: 100%;
+        height: auto;
+    }
+    .item-10,.item-12,.item-14,.item-16{
+        margin-bottom: 10%;
+        margin-left: 0%;
+        height: auto;
+    }
+    .item-11,.item-13,.item-15,.item-17{
+        height: auto;
+    }
+    .esp,.cost,.ale,.jap{
+        width: 100%;
+        height: auto;
+    }
+    .item-11{
+        margin-bottom: 10%;
+        width: 69%;
+    }
+    .item-13,.item-15,.item-17{
+        width: 69%;
+        height: auto;
+    }
+    .item-9{
+        width: 100%;
+        height: auto;
+    }
+    .item-8{
+        margin-left: 0%;
+        height: auto;
+    }
 }
